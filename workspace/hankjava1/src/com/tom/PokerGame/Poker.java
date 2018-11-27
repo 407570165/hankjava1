@@ -16,7 +16,7 @@ public class Poker {
 			for(int i=0;i<nums.length;i++){
 				System.out.println(nums[i]);
 			}
-				
+	
 			
 			Random random=new Random();
 			for(int i=0;i<52;i++){
