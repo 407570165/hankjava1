@@ -37,8 +37,8 @@ public class Poker {
 				flower='D';
 				break;
 			}
-			System.out.println(flower);
-			
+			System.out.print(flower);
+			System.out.println(number);
 			
 		
 			/*if(a==1){
