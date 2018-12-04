@@ -6,46 +6,68 @@ public class PokerGame {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Random random=new Random(13+1);
-		int i=0;
-		int j=0;
-			int[] a=new int[13];
-			a[1]=1;
-			a[2]=2;
-			a[3]=3;
-			a[4]=4;
-			a[5]=5;
-			a[6]=6;
-			a[7]=7;
-			a[8]=8;
-			a[9]=9;
-			a[10]=10;
-			a[11]=11;
-			a[12]=12;
-			a[13]=13;
-			for(i=0,j=0;i<a.length;i++) {
-				int b =random.nextInt(4+1);
-				char flower=0;
-				switch(b) {
-				case 1:
-					flower='h';
-					break;
-				case 2 :
-					flower='c';
-					break;
-				case 3:
-					flower='a';
-					break;
-				case 4:
-					flower='d';
-					break;
-					default:
-				System.out.println(flower+a[i]);
-			}
-			
+			Card c=new Card(5);
+			Card[] cards=new Card[52];
+			Poker poker=new Poker();
+			poker.game();
+					
 			 
 				
-				}
-			}
+				
+		/*int[] flowers={0x2665,0x2660};
+		System.out.println(flowers);
+		int c=0x2666;
+		System.out.println(c);
+		int[] nums =new int[13];
+		
+
+		for(int i=0;i<nums.length;i++){
+			System.out.println(nums[i]);
 		}
+
+		
+		Random random=new Random();
+		for(int i=0;i<52;i++){
+		int number=random.nextInt(13+1);
+		int a=random.nextInt(4+1);
+		char flower=0;
+		switch(a){
+		case 1:
+			flower='H';
+			break;
+		case 2:
+			flower='S';
+			break;
+		case 3:
+			flower='C';
+			break;
+		case 4:
+			flower='D';
+			break;
+		}
+		System.out.print(flower);
+		System.out.println(number);*/
+		
+	
+		/*if(a==1){
+			System.out.print(number+"S");
+		}
+		else if(a==2){
+			System.out.print(number+"H");
+		}
+		if(a==3){
+			System.out.print(number+"C");
+		}
+		if(a==4){
+			System.out.print(number+"D");
+		}
+	}*/
+		}
+	}
+//}
+	
+//}
+
+//}
+
 

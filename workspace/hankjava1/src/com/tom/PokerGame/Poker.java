@@ -3,61 +3,36 @@ package com.tom.PokerGame;
 import java.util.Random;
 
 public class Poker {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-			int[] flowers={0x2665,0x2660};
-			System.out.println(flowers);
-			int c=0x2666;
-			System.out.println(c);
-			int[] nums =new int[5];
-			nums[4]=98;
-			nums[2]=77;
-			for(int i=0;i<nums.length;i++){
-				System.out.println(nums[i]);
-			}
-	
-			
-			Random random=new Random();
-			for(int i=0;i<52;i++){
-			int number=random.nextInt(13+1);
-			int a=random.nextInt(4+1);
-			char flower=0;
-			switch(a){
+	int[] cards=new int[52];
+	int i;
+	char flower;
+	public Poker(){
+		for(i=0;i<52;i++){
+			cards[i]=i;
+		}
+	}
+	public void game(){
+		for (i=0;i<52;i++){
+			/*switch((i)/13){
+			case 0:
+				flower='\u2660';
+				break;
 			case 1:
-				flower='H';
+				flower='\u2663';
 				break;
 			case 2:
-				flower='S';
+				flower='\u2665';
 				break;
 			case 3:
-				flower='C';
+				flower='\u2666';
 				break;
-			case 4:
-				flower='D';
-				break;
-			}
-			System.out.print(flower);
-			System.out.println(number);
-			
-		
-			/*if(a==1){
-				System.out.print(number+"S");
-			}
-			else if(a==2){
-				System.out.print(number+"H");
-			}
-			if(a==3){
-				System.out.print(number+"C");
-			}
-			if(a==4){
-				System.out.print(number+"D");
-			}
-		}*/
-			}
+			}*/
+			System.out.print((cards[i]%13+1)+""+flower+" ");
+		if(i%13==12){
+			System.out.println();
+		}	
 		}
-	//}
 		
 	}
-
-//}
+}
+			
