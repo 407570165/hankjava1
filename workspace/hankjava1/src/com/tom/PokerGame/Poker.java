@@ -4,6 +4,7 @@ import java.util.Random;
 
 public class Poker {
 	int[] cards=new int[52];
+	Card[] c=new Card[52];
 	int i;
 	char flower;
 	public Poker(){
