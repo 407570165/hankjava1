@@ -6,10 +6,19 @@ public class PokerGame {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-			Card c=new Card(5);
-			Card[] cards=new Card[52];
-			Poker poker=new Poker();
-			poker.game();
+		int[] n =new int [10];
+		Card[] c =new Card[10];
+		System.out.println(n[0]);
+		c[5]=new Card(25);
+		System.out.println(c[5].get());
+		Poker2 poker2=new Poker2();
+		poker2.print();
+		poker2.print();
+		
+		
+			//Card[] cards=new Card[52];
+			//Poker poker=new Poker();
+			//poker.game();
 			
 					
 			 

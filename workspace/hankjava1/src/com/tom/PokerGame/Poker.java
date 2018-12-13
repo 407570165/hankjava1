@@ -14,7 +14,7 @@ public class Poker {
 	}
 	public void game(){
 		for (i=0;i<52;i++){
-			/*switch((i)/13){
+			switch((i)/13){
 			case 0:
 				flower='\u2660';
 				break;
@@ -27,7 +27,7 @@ public class Poker {
 			case 3:
 				flower='\u2666';
 				break;
-			}*/
+			}
 			System.out.print((cards[i]%13+1)+""+flower+" ");
 		if(i%13==12){
 			System.out.println();
