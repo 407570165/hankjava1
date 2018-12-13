@@ -12,8 +12,9 @@ public class PokerGame {
 		c[5]=new Card(25);
 		System.out.println(c[5].get());
 		Poker2 poker2=new Poker2();
-		poker2.print();
-		poker2.print();
+		//poker2.print();
+		//poker2.print();
+		poker2.a();
 		
 		
 			//Card[] cards=new Card[52];

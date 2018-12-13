@@ -3,7 +3,7 @@ package com.tom.PokerGame;
 import java.util.ArrayList;
 
 public class Poker2 {
-	ArrayList bag =new ArrayList();
+	/*ArrayList bag =new ArrayList();
 	public Poker2(){
 		for (int i=0;i<52;i++){
 			Card c =new Card(i);
@@ -18,5 +18,21 @@ public class Poker2 {
 			if (i%13==12)
 				System.out.println();
 		}
+	}*/
+	Card[] cards =new Card[52];
+	public Poker2 () {
+		for (int i=0;i<52;i++) {
+			cards[i]=new Card(i);
+		}
 	}
+	public void a () {
+		for (int i=0;i<52;i++) {
+			System.out.print(cards[i].get()+" ");
+			if(i%13==12) {
+				System.out.println();
+			}
+		}
+	}
+
 }
+
