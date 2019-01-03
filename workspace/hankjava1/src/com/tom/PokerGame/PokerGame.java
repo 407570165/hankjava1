@@ -15,6 +15,9 @@ public class PokerGame {
 		//poker2.print();
 		//poker2.print();
 		poker2.a();
+	    trash trash =new trash();
+	    trash.shuffle();
+	    trash.print();
 		
 		
 			//Card[] cards=new Card[52];

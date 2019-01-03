@@ -11,6 +11,7 @@ public class StringTester {
 		System.out.println(s1.substring(8));
 		System.out.println(s1.substring(2, 8));
 		String s="Hello world";
+		System.out.println(s.length());
 		for(int i=s.length()-1;i>=0;i--){
 			System.out.print(s.charAt(i));
 		}
