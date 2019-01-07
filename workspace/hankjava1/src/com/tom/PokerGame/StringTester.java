@@ -16,19 +16,20 @@ public class StringTester {
 			System.out.print(s.charAt(i));
 		}
 		System.out.println();
-		String s3="Jack Tom Eric";
+		String s3="Jack Tom Eric Tom";
 		String name="Tom";
-		System.out.println(s3.indexOf("c"));
+		System.out.println(s3.indexOf("a"));
 		String s4=s3.replace("Tom", "boss");
-		//String s4=s3.replaceAll(s3.substring(5, 8), name);
+		//String s4=s3.replaceAll(s3.substring(5, 8), "boss");
 		System.out.println(s4);
 		int index=s3.indexOf(name);
+		System.out.println(index);
 		System.out.println(s3.substring(0, index)+"boss"+s3.substring(8));
 		int nn =Integer.parseInt("12");
 		nn++;
 		System.out.println(nn);
 		Integer ii = nn;
-		System.out.println(ii.intValue());
+		System.out.println(ii);
 	}
 
 }
